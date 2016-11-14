@@ -29,11 +29,11 @@ body {
     /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;
     /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color: #000;
-    background-image: linear-gradient(top, #212121 0%, #424242 51%);
+    background-color: #212121;
+    /*background-image: linear-gradient(top, #212121 0%, #424242 51%);
     background-image: -webkit-linear-gradient(top, #212121 0%, #424242 51%);
     background-image: -ms-linear-gradient(top, #212121 0%, #424242 51%);
-    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #212121), color-stop(0.51, #424242));
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #212121), color-stop(0.51, #424242));*/
     background-attachment: fixed;
     color: #FFF;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
@@ -136,4 +136,13 @@ h1 {
 .blink {
     animation: fade 3000ms infinite;
     -webkit-animation: fade 3000ms infinite;
+}
+
+.blocodancante {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;
 }

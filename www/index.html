@@ -26,7 +26,7 @@
             <ul class="tabs tabs-fixed-width deep-orange accent-4">
                 <li class="tab col s3"><a href="#device" class="white-text">Device Info</a></li>
                 <li class="tab col s3"><a class="active white-text" href="#bateria">Bateria</a></li>
-                <li class="tab col s3"><a href="#test4" class="white-text">Test 4</a></li>
+                <li class="tab col s3"><a href="#accelerometer" class="white-text">Acelerômetro</a></li>
             </ul>
         </div>
         <div id="device" class="col s12">
@@ -91,8 +91,35 @@
                 </div>
             </div>
         </div>
-        <div id="test4" class="col s12">Test 4</div>
+        <div id="accelerometer" class="col s12">
+            <div class="row">
+                <div class="col s2">
+                    <p class="flow-text right-align">X:</p>
+                </div>
+                <div class="col s2">
+                    <p class="flow-text truncate" id="xOut">0</p>
+                </div>
+                <div class="col s2">
+                    <p class="flow-text right-align">Y:</p>
+                </div>
+                <div class="col s2">
+                    <p class="flow-text truncate" id="yOut">0</p>
+                </div>
+                <div class="col s2">
+                    <p class="flow-text right-align">Z:</p>
+                </div>
+                <div class="col s2">
+                    <p class="flow-text truncate" id="zOut">0</p>
+                </div>
+            </div>
+            <div id="campo" name="campo" class="campo"></div>
+        </div>
     </div>
+    <!--<footer class="page-footer deep-orange accent-4">
+        <label>X:</label> <span id="xOut">0</span><br />
+        <label>Y:</label> <span id="yOut">0</span><br />
+        <label>Z:</label> <span id="zOut">0</span>
+    </footer>-->
     <!--<div class="container">
         <div class="row pin-bottom">
             <div class="col s6">
